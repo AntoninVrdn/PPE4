@@ -1,0 +1,37 @@
+[
+    {
+      "ID": 1,
+      "ID_ROUTE": 1,
+      "TEMPSFINAL": "2020-09-10T00:00:00",
+      "SCOREFINAL": 70,
+      "DATECREATION": "2020-09-09T00:00:00"
+    },
+    {
+      "ID": 2,
+      "ID_ROUTE": 3,
+      "TEMPSFINAL": "1900-01-01T00:00:00",
+      "SCOREFINAL": 0,
+      "DATECREATION": "2020-09-15T00:00:00"
+    },
+    {
+      "ID": 3,
+      "ID_ROUTE": 4,
+      "TEMPSFINAL": "1900-01-01T00:00:00",
+      "SCOREFINAL": 0,
+      "DATECREATION": "2020-09-16T00:00:00"
+    },
+    {
+      "ID": 71,
+      "ID_ROUTE": 47,
+      "TEMPSFINAL": "2020-08-31T00:00:00",
+      "SCOREFINAL": 0,
+      "DATECREATION": "2020-07-31T00:00:00"
+    },
+    {
+      "ID": 72,
+      "ID_ROUTE": 49,
+      "TEMPSFINAL": "2020-08-31T00:00:00",
+      "SCOREFINAL": 0,
+      "DATECREATION": "2020-07-31T00:00:00"
+    }
+  ]

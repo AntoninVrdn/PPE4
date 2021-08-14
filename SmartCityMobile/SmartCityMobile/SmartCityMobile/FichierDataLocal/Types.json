@@ -1,0 +1,16 @@
+{
+  "Types": [
+    {
+      "ID": 1,
+      "DESCRIPTION": "Quizz"
+    },
+    {
+      "ID": 2,
+      "DESCRIPTION": "QR code"
+    },
+    {
+      "ID": 3,
+      "DESCRIPTION": "Chasse au trésor"
+    }
+  ]
+}

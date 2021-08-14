@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartCityMobile.Views.Quizzs"
+             xmlns:local="clr-namespace:SmartCityMobile.ViewCell">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40*"></RowDefinition>
+                <RowDefinition Height="20*"></RowDefinition>
+                <RowDefinition Height="20*"></RowDefinition>
+                <RowDefinition Height="20*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <StackLayout Grid.Row="0">
+                <ListView ItemsSource="{Binding LstQuestions}">
+                    <!--LstReponses-->
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <local:TemplateQuizz/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+
+
+            
+
+            <StackLayout BackgroundColor="#2196F3"  Grid.Row="3" WidthRequest="400" HeightRequest="50" HorizontalOptions="Start" VerticalOptions="Start">
+                <Label Text="Goodies à récupérer :" HorizontalTextAlignment="Start" TextColor="White" FontSize="14"/>
+                <ListView ItemsSource="{Binding LstGoodies}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+                                    <Label Text="{Binding Name}"></Label>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

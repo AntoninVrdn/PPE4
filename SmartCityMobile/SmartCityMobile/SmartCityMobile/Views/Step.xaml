@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartCityMobile.Views.Step">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <!-- Grid Structure -->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition Height="6*"></RowDefinition>
+                    <RowDefinition Height="2*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*"></ColumnDefinition>
+                    <ColumnDefinition Width="5*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <!-- Views Structure -->
+                <BoxView BackgroundColor="Gainsboro" Grid.ColumnSpan="2"/>
+                <Label x:Name="StepTitle"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontSize="Title"
+                   FontAttributes="Bold"
+                   Text="Titre de l'étape"
+                   Grid.ColumnSpan="2"/>
+                <BoxView BackgroundColor="Gainsboro" Grid.Row="1" Grid.ColumnSpan="2"/>
+                <Label x:Name="StepDescription"
+                   FontSize="30"
+                   Text="Scelere fines loqui impetraret cuiusdam fines non missa misceri humilia omnino flagrans ad occideretur impotentia socrus amore permissus scelere nobilis per occideretur palatii loqui pseudothyrum misceri non misceri socrus nobilis."
+                   Grid.Row="1" 
+                   Grid.ColumnSpan="2"/>
+                <BoxView BackgroundColor="Gainsboro" Grid.Row="2"/>
+                <Button Text="Photo" Grid.Row="2" Command="{Binding PhotoCmd}"/>
+                <BoxView BackgroundColor="Gainsboro" Grid.Row="2" Grid.Column="1"/>
+                <Button Text="Quizz" Grid.Row="2" Grid.Column="1" Command="{Binding QuizzCmd}"/>
+
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

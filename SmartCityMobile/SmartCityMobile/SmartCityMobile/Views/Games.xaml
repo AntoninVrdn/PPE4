@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartCityMobile.Views.Games"
+             xmlns:local ="clr-namespace:SmartCityMobile.Views"
+             xmlns:vm ="clr-namespace:SmartCityMobile.ViewModels">
+
+    <!--<ContentPage.BindingContext>
+        <vm:GameViewModel></vm:GameViewModel>
+    </ContentPage.BindingContext>-->
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="lstViewGames"
+                      ItemsSource="{Binding LstJeux}"
+                      SelectedItem="{Binding SelectedItem,Mode=TwoWay}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <local:TemplateGame/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

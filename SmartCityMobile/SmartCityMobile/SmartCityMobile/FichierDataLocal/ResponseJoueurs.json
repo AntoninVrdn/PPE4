@@ -1,0 +1,18 @@
+{
+  "ReponseJoueurs": [
+    {
+      "ID_JOUEUR": 1,
+      "ID_EQUIPE": 1,
+      "ID_JEU": 1,
+      "ID_MISSION": 1,
+      "ID_QUESTION": 1,
+      "ID_REPONSE": 1,
+      "TEXT": "Réponse du joueur",
+      "URL": "url",
+      "LNG": 1.750000000000000e+000,
+      "LAT": 1.600000000000000e+000,
+      "DATE": "2020-09-09T00:00:00",
+      "BONNE": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Messages": [
+    {
+      "Id": 1,
+      "Title": "Information",
+      "Description": "Nous sommes perdues",
+      "ID_EMETTEUR": 1,
+      "ID_RECEPTEUR": 2
+    }
+  ]
+}

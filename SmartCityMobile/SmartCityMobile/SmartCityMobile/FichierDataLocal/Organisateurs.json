@@ -1,0 +1,20 @@
+[
+    {
+      "ID": 2,
+      "LOGIN": "Login",
+      "PASSWORD": "Mdp",
+      "EMAIL": "plop@plop",
+      "PICTURE": "Photo",
+      "NOM": "plop1",
+      "PRENOM": "plop1"
+    },
+    {
+      "ID": 3,
+      "LOGIN": "Blanc",
+      "PASSWORD": "Mdp",
+      "EMAIL": "Blanc@Blanc",
+      "PICTURE": "Photo",
+      "NOM": "DEVOILLE",
+      "PRENOM": "Tristan"
+    }
+  ]

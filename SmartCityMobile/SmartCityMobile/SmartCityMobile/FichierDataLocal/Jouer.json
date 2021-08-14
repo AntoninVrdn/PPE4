@@ -1,0 +1,65 @@
+{
+  "Jouer": [
+    {
+      "ID_JEUX": 1,
+      "ID_EQUIPE": 1,
+      "SCORE": 150,
+      "DATEDEBUT": "2020-09-09T00:00:00",
+      "DATEFIN": "2020-09-10T00:00:00"
+    },
+    {
+      "ID_JEUX": 1,
+      "ID_EQUIPE": 37,
+      "SCORE": 0
+    },
+    {
+      "ID_JEUX": 1,
+      "ID_EQUIPE": 38,
+      "SCORE": 0
+    },
+    {
+      "ID_JEUX": 1,
+      "ID_EQUIPE": 39,
+      "SCORE": 0
+    },
+    {
+      "ID_JEUX": 2,
+      "ID_EQUIPE": 2,
+      "SCORE": 0,
+      "DATEDEBUT": "2020-09-15T00:00:00",
+      "DATEFIN": "1900-01-01T00:00:00"
+    },
+    {
+      "ID_JEUX": 2,
+      "ID_EQUIPE": 40,
+      "SCORE": 0
+    },
+    {
+      "ID_JEUX": 3,
+      "ID_EQUIPE": 3,
+      "SCORE": 0,
+      "DATEDEBUT": "1900-01-01T00:00:00",
+      "DATEFIN": "1900-01-01T00:00:00"
+    },
+    {
+      "ID_JEUX": 3,
+      "ID_EQUIPE": 43,
+      "SCORE": 0
+    },
+    {
+      "ID_JEUX": 71,
+      "ID_EQUIPE": 41,
+      "SCORE": 0
+    },
+    {
+      "ID_JEUX": 71,
+      "ID_EQUIPE": 42,
+      "SCORE": 0
+    },
+    {
+      "ID_JEUX": 71,
+      "ID_EQUIPE": 44,
+      "SCORE": 0
+    }
+  ]
+}

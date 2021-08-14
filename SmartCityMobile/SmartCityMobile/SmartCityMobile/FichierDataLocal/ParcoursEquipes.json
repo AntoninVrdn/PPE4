@@ -1,0 +1,52 @@
+{
+  "Parcours_Equipes": [
+    {
+      "ID_JEU": 1,
+      "ID_EQUIPE": 1,
+      "ID_ROUTE": 1,
+      "ID_STEP": 1,
+      "ORDRE": 1,
+      "DATEVALIDATION": "2020-09-09T00:00:00"
+    },
+    {
+      "ID_JEU": 1,
+      "ID_EQUIPE": 1,
+      "ID_ROUTE": 1,
+      "ID_STEP": 2,
+      "ORDRE": 2,
+      "DATEVALIDATION": "2020-09-09T00:00:00"
+    },
+    {
+      "ID_JEU": 2,
+      "ID_EQUIPE": 2,
+      "ID_ROUTE": 4,
+      "ID_STEP": 3,
+      "ORDRE": 1,
+      "DATEVALIDATION": "1900-01-01T00:00:00"
+    },
+    {
+      "ID_JEU": 2,
+      "ID_EQUIPE": 2,
+      "ID_ROUTE": 4,
+      "ID_STEP": 4,
+      "ORDRE": 2,
+      "DATEVALIDATION": "1900-01-01T00:00:00"
+    },
+    {
+      "ID_JEU": 3,
+      "ID_EQUIPE": 3,
+      "ID_ROUTE": 3,
+      "ID_STEP": 5,
+      "ORDRE": 1,
+      "DATEVALIDATION": "1900-01-01T00:00:00"
+    },
+    {
+      "ID_JEU": 3,
+      "ID_EQUIPE": 3,
+      "ID_ROUTE": 3,
+      "ID_STEP": 6,
+      "ORDRE": 2,
+      "DATEVALIDATION": "1900-01-01T00:00:00"
+    }
+  ]
+}

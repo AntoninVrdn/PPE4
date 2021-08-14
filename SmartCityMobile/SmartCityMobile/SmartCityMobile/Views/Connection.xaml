@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartCityMobile.Views.Connection"
+             xmlns:vm="clr-namespace:SmartCityMobile.ViewModels">
+    <!--<ContentPage.BindingContext>
+        <vm:ConnexionViewModel></vm:ConnexionViewModel>
+    </ContentPage.BindingContext>-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*"></RowDefinition>
+            <RowDefinition Height="20*"></RowDefinition>
+            <RowDefinition Height="20*"></RowDefinition>
+            <RowDefinition Height="20*"></RowDefinition>
+            <RowDefinition Height="20*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0" Grid.Row="0">
+            <Label Text="Welcome to Smart City application !" HorizontalTextAlignment="Center" TextColor="White" FontSize="26"/>
+        </Frame>
+
+        <Entry Placeholder="Identifiant" Grid.Row="1" Text="{Binding Login}"></Entry>
+
+        <Entry Placeholder="Mot de passe" IsPassword="True" Grid.Row="2" Text="{Binding Password}"></Entry>
+
+        <Button Text="Log In" 
+                BackgroundColor="#2196F3" 
+                Grid.Row="3" 
+                CornerRadius="13" 
+                WidthRequest="200" 
+                HeightRequest="50" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center" 
+                TextColor="White"
+                Command="{Binding LoginCmd}"/>
+
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,32 @@
+{
+  "Appartenir": [
+    {
+      "ID_EQUIPE": 1,
+      "ID_JOUEUR": 4
+    },
+    {
+      "ID_EQUIPE": 2,
+      "ID_JOUEUR": 5
+    },
+    {
+      "ID_EQUIPE": 2,
+      "ID_JOUEUR": 6
+    },
+    {
+      "ID_EQUIPE": 2,
+      "ID_JOUEUR": 7
+    },
+    {
+      "ID_EQUIPE": 3,
+      "ID_JOUEUR": 10
+    },
+    {
+      "ID_EQUIPE": 3,
+      "ID_JOUEUR": 11
+    },
+    {
+      "ID_EQUIPE": 3,
+      "ID_JOUEUR": 33
+    }
+  ]
+}

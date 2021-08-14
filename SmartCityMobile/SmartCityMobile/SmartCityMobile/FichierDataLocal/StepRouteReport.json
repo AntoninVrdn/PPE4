@@ -1,0 +1,76 @@
+{
+  "StepRouteReport": [
+    {
+      "IDROUTE": 1,
+      "IDSTEP": 1
+    },
+    {
+      "IDROUTE": 1,
+      "IDSTEP": 2
+    },
+    {
+      "IDROUTE": 3,
+      "IDSTEP": 5
+    },
+    {
+      "IDROUTE": 3,
+      "IDSTEP": 6
+    },
+    {
+      "IDROUTE": 4,
+      "IDSTEP": 3
+    },
+    {
+      "IDROUTE": 4,
+      "IDSTEP": 4
+    },
+    {
+      "IDROUTE": 18,
+      "IDSTEP": 72
+    },
+    {
+      "IDROUTE": 18,
+      "IDSTEP": 75
+    },
+    {
+      "IDROUTE": 18,
+      "IDSTEP": 76
+    },
+    {
+      "IDROUTE": 18,
+      "IDSTEP": 78
+    },
+    {
+      "IDROUTE": 18,
+      "IDSTEP": 83
+    },
+    {
+      "IDROUTE": 18,
+      "IDSTEP": 84
+    },
+    {
+      "IDROUTE": 47,
+      "IDSTEP": 85
+    },
+    {
+      "IDROUTE": 49,
+      "IDSTEP": 79
+    },
+    {
+      "IDROUTE": 49,
+      "IDSTEP": 80
+    },
+    {
+      "IDROUTE": 51,
+      "IDSTEP": 81
+    },
+    {
+      "IDROUTE": 54,
+      "IDSTEP": 86
+    },
+    {
+      "IDROUTE": 54,
+      "IDSTEP": 87
+    }
+  ]
+}

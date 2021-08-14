@@ -1,0 +1,28 @@
+{
+  "Reponses": [
+    {
+      "ID": 1,
+      "ID_QUESTION": 1,
+      "INTITULE": "Reponse a la question 1",
+      "PHOTO": "photo réponse"
+    },
+    {
+      "ID": 2,
+      "ID_QUESTION": 2,
+      "INTITULE": "QR code scanné",
+      "PHOTO": "photo du QR code"
+    },
+    {
+      "ID": 3,
+      "ID_QUESTION": 5,
+      "INTITULE": "QR code validé",
+      "PHOTO": "photo du QR code"
+    },
+    {
+      "ID": 4,
+      "ID_QUESTION": 4,
+      "INTITULE": "Vous avez trouvé le coffre",
+      "PHOTO": "photo du coffre"
+    }
+  ]
+}

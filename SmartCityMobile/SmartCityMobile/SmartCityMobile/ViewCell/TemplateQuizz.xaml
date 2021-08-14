@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmartCityMobile.ViewCell.TemplateQuizz">
+  <ViewCell.View>
+        <StackLayout>
+            <Label Text="{Binding ID}" IsVisible="False" x:Name="Id"/>
+            <Label Text="{Binding SCORE}" IsVisible="False" x:Name="Score"/>
+            <Label Text="{Binding IdJ}" IsVisible="False" x:Name="IdJ"/>
+            <Label Text="{Binding INTITULE}" Margin="20"/>
+            <Entry Placeholder="Entrez votre Réponse" x:Name="Entry" Margin="20"></Entry>
+            <Button Clicked="Button_Clicked" Text="Valider" Margin="30" BackgroundColor="#2196F3" 
+                    CornerRadius="13" 
+                    WidthRequest="200" 
+                    HeightRequest="50" 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Center" 
+                    TextColor="White"/>
+        </StackLayout>
+    </ViewCell.View>
+</ViewCell>

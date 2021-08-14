@@ -1,0 +1,90 @@
+{
+  "Equipes": [
+    {
+      "ID": 1,
+      "NOM": "Uchiwa",
+      "IMAGE": "Photo",
+      "ID_CREATOR": 2,
+      "ID_CAPITAINE": 1
+    },
+    {
+      "ID": 2,
+      "NOM": "Nanatsu",
+      "IMAGE": "photo",
+      "ID_CREATOR": 2,
+      "ID_CAPITAINE": 5
+    },
+    {
+      "ID": 3,
+      "NOM": "Hunters",
+      "IMAGE": "photo",
+      "ID_CREATOR": 2,
+      "ID_CAPITAINE": 8
+    },
+    {
+      "ID": 32,
+      "NOM": "Segs",
+      "ID_CREATOR": 2
+    },
+    {
+      "ID": 33,
+      "NOM": "Segs",
+      "ID_CREATOR": 2
+    },
+    {
+      "ID": 34,
+      "NOM": "fsdfdsfsd",
+      "ID_CREATOR": 2
+    },
+    {
+      "ID": 35,
+      "NOM": "seks",
+      "ID_CREATOR": 2
+    },
+    {
+      "ID": 36,
+      "NOM": "seggs",
+      "ID_CREATOR": 2
+    },
+    {
+      "ID": 37,
+      "NOM": "seggs",
+      "ID_CREATOR": 2
+    },
+    {
+      "ID": 38,
+      "NOM": "seeegs",
+      "ID_CREATOR": 2
+    },
+    {
+      "ID": 39,
+      "NOM": "GroSeks",
+      "ID_CREATOR": 2
+    },
+    {
+      "ID": 40,
+      "NOM": "test",
+      "ID_CREATOR": 2
+    },
+    {
+      "ID": 41,
+      "NOM": "NohamMaghrib",
+      "ID_CREATOR": 2
+    },
+    {
+      "ID": 42,
+      "NOM": "fsdfsdf",
+      "ID_CREATOR": 2
+    },
+    {
+      "ID": 43,
+      "NOM": "Jambon",
+      "ID_CREATOR": 2
+    },
+    {
+      "ID": 44,
+      "NOM": "Test",
+      "ID_CREATOR": 2
+    }
+  ]
+}
